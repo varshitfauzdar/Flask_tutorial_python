@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Tutorial</h1>
+    <form action="{{url_for('form_tut')}}" method="post">
+        <input type="text" name="maths" placeholder="Maths">
+        <input type="text" name="science" placeholder="Science">
+        <input type="text" name="history" placeholder="History">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+        <h1>Your score is {{score}}</h1>
+    </br>
+</body>
+</html>

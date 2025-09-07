@@ -1,0 +1,6 @@
+{
+    "a":10,
+    "b":20
+}
+// we make json data for the api in test.json file so that we can test the api with postman
+// and get the sum of two numbers
